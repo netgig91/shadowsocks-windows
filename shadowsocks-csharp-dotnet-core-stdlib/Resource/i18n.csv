@@ -1,0 +1,60 @@
+﻿en,zh-CN,zh-TW,ja
+#Restart program to apply translation,,,
+#This is comment line,,,
+#Always keep language name at head of file,,,
+#Language name is output in log,,,
+"#You can find it by search ""Current language is:""",,,
+#Please use UTF-8 with BOM encoding so we can edit it in Excel,,,
+,,,
+# Messages,,,
+,,,
+Shadowsocks Error: {0},Shadowsocks 错误: {0},Shadowsocks 錯誤: {0},Shadowsocks エラー: {0}
+Port {0} already in use,端口 {0} 已被占用,連接埠號碼 {0} 已被使用,ポート番号 {0} は既に使用されています。
+Port {0} is reserved by system,端口 {0} 是系统保留端口,連接埠號碼 {0} 由系統保留, ポート番号 {0} はシステムによって予約されています
+Invalid server address,非法服务器地址,無效伺服器位址,サーバーアドレスが無効です。
+Illegal port number format,非法端口格式,無效連接埠號碼格式,ポート番号のフォーマットが無効です。
+Illegal timeout format,非法超时格式,無效逾時格式,タイムアウト値のフォーマットが無効です。
+Server IP can not be blank,服务器 IP 不能为空,伺服器 IP 不能為空,サーバー IP が指定されていません。
+Password can not be blank,密码不能为空,密碼不能為空,パスワードが指定されていません。
+Port out of range,端口超出范围,連接埠號碼超出範圍,ポート番号は範囲外です。
+Port can't be 8123,端口不能为 8123,連接埠號碼不能為 8123,8123 番以外のポート番号を指定して下さい。
+Shadowsocks {0} Update Found,Shadowsocks {0} 更新,Shadowsocks {0} 更新,Shadowsocks バージョン {0} は利用できます。
+No update is available,没有可用的更新,沒有可用的更新,お使いのバージョンは最新です。
+Click here to update,点击这里升级,點按此處升級,クリックしてアップデートします。
+Shadowsocks is here,Shadowsocks 在这里,Shadowsocks 在這裡,Shadowsocks はここです。
+You can turn on/off Shadowsocks in the context menu,可以在右键菜单中开关 Shadowsocks,可以在右鍵選項單中開關 Shadowsocks,コンテキストメニューを使って、Shadowsocks を有効または無効にすることができます。
+System Proxy Enabled,系统代理已启用,系統 Proxy 已啟用,システム プロキシが有効です。
+System Proxy Disabled,系统代理未启用,系統 Proxy 未啟用,システム プロキシが無効です。
+Failed to update PAC file ,更新 PAC 文件失败,更新 PAC 檔案失敗,PAC の更新に失敗しました。
+PAC updated,更新 PAC 成功,更新 PAC 成功,PAC を更新しました。
+No updates found. Please report to GFWList if you have problems with it.,未发现更新。如有问题请提交给 GFWList。,未發現更新。如有問題請報告至 GFWList。,お使いのバージョンは最新です。問題がある場合は、GFWList に報告して下さい。
+No QRCode found. Try to zoom in or move it to the center of the screen.,未发现二维码，尝试把它放大或移动到靠近屏幕中间的位置,未發現 QR 碼，嘗試把它放大或移動到靠近熒幕中間的位置,QR コードが見つかりませんでした。コードを大きくするか、画面の中央に移動して下さい。
+Shadowsocks is already running.,Shadowsocks 已经在运行。,Shadowsocks 已經在執行。,Shadowsocks 実行中
+Find Shadowsocks icon in your notify tray.,请在任务栏里寻找 Shadowsocks 图标。,請在工作列裡尋找 Shadowsocks 圖示。,通知領域には Shadowsocks のアイコンがあります。
+"If you want to start multiple Shadowsocks, make a copy in another directory.",如果想同时启动多个，可以另外复制一份到别的目录。,如果想同時啟動多個，可以另外複製一份至別的目錄。,複数起動したい場合は、プログラムファイルを別のフォルダーにコピーしてから、もう一度実行して下さい。
+Failed to decode QRCode,无法解析二维码,QR 碼解碼失敗,QR コードの読み取りに失敗しました。
+Failed to update registry,无法修改注册表,無法修改登錄檔,レジストリの更新に失敗しました。
+System Proxy On: ,系统代理已启用：,系統 Proxy 已啟用：,システム プロキシが有効：
+Running: Port {0},正在运行：端口 {0},正在執行：連接埠號碼 {0},実行中：ポート {0}
+"Unexpected error, shadowsocks will exit. Please report to",非预期错误，Shadowsocks将退出。请提交此错误到,非預期錯誤，Shadowsocks 將結束。請報告此錯誤至,予想外のエラーが発生したため、Shadowsocks を終了します。詳しくは下記までお問い合わせ下さい：
+"Unsupported operating system, use Windows Vista at least.",不支持的操作系统版本，最低需求为Windows Vista。,不支援的作業系統版本，最低需求為 Windows Vista。,お使いの OS はサポートされていません。Windows Vista 以降の OS で実行して下さい。
+"Unsupported .NET Framework, please update to {0} or later.",当前 .NET Framework 版本过低，请升级至{0}或更新版本。,目前 .NET Framework 版本過低，最低需求為{0}。,お使いの .NET Framework はサポートされていません。{0} 以降のバンジョーをインストールして下さい。
+Proxy request failed,代理请求失败,Proxy 要求失敗,プロキシ要求が失敗しました。
+Proxy handshake failed,代理握手失败,Proxy 交握失敗,プロキシ ハンドシェイクに失敗しました。
+Register hotkey failed,注册快捷键失败,註冊快速鍵失敗,ホットキーの登錄に失敗しました。
+Cannot parse hotkey: {0},解析快捷键失败: {0},剖析快速鍵失敗: {0},ホットキーを解析できません: {0}
+"Timeout is invalid, it should not exceed {0}",超时无效，不应超过 {0},逾時無效，不應超過 {0},タイムアウト値が無効です。{0} 以下の値を指定して下さい。
+Cannot find the plugin program file,找不到插件程序文件,找不到外掛程式文件,
+,,,
+Operation failure,操作失败,,
+Auto save failed,自动保存失败,,
+Whether to discard unconfigured servers,是否丢弃未配置的服务器,,
+"Invalid server address, Cannot automatically save or discard changes",非法服务器地址，无法自动保存，是否丢弃修改,,
+"Illegal port number format, Cannot automatically save or discard changes",非法端口格式，无法自动保存，是否丢弃修改,,
+"Password can not be blank, Cannot automatically save or discard changes",密码不能为空，无法自动保存，是否丢弃修改,,
+"Illegal timeout format, Cannot automatically save or discard changes",非法超时格式，无法自动保存，是否丢弃修改,,
+,,,
+"Error occured when process proxy setting, do you want reset current setting and retry?",处理代理设置时发生错误，是否重置当前代理设置并重试？,,
+"Unrecoverable proxy setting error occured, see log for detail",发生不可恢复的代理设置错误，查看日志以取得详情,,
+Auth user can not be blank,认证用户不能为空,認證用戶不能為空,認証ユーザが指定されていません。
+Auth pwd can not be blank,认证密码不能为空,認證口令不能為空,認証パスワードが指定されていません。

@@ -335,7 +335,7 @@ namespace Shadowsocks.Controller
             string tag = string.Empty;
             string url = string.Empty;
 
-            if (string.IsNullOrWhiteSpace(server.plugin))
+            if (server.plugin.IsNullOrWhiteSpace())
             {
                 // For backwards compatiblity, if no plugin, use old url format
                 string parts = $"{server.method}:{server.password}@{server.server}:{server.server_port}";
@@ -350,7 +350,7 @@ namespace Shadowsocks.Controller
                 string websafeBase64 = base64.Replace('+', '-').Replace('/', '_').TrimEnd('=');
 
                 string pluginPart = server.plugin;
-                if (!string.IsNullOrWhiteSpace(server.plugin_opts))
+                if (!server.plugin_opts.IsNullOrWhiteSpace())
                 {
                     pluginPart += ";" + server.plugin_opts;
                 }

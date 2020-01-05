@@ -1,4 +1,5 @@
 ﻿using Microsoft.VisualBasic.FileIO;
+using Shadowsocks.Controller;
 using Shadowsocks.Properties;
 using Shadowsocks.Util;
 using System.Collections.Generic;
@@ -65,7 +66,7 @@ namespace Shadowsocks.Controller
                     string translation = translations[targetIndex];
 
                     // source string or translation empty
-                    if (string.IsNullOrWhiteSpace(source) || string.IsNullOrWhiteSpace(translation)) continue;
+                    if (source.IsNullOrWhiteSpace() || translation.IsNullOrWhiteSpace()) continue;
                     // line start with comment
                     if (translations[0].TrimStart(' ')[0] == '#') continue;
 

@@ -8,6 +8,7 @@ using System.Windows.Forms.DataVisualization.Charting;
 using Shadowsocks.Controller;
 using Shadowsocks.Model;
 using Shadowsocks.Properties;
+using Shadowsocks.Util;
 
 namespace Shadowsocks.View
 {

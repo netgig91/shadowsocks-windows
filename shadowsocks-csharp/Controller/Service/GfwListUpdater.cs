@@ -91,7 +91,7 @@ var __RULES__ = {JsonConvert.SerializeObject(gfwLines, Formatting.Indented)};
         public void UpdatePACFromGFWList(Configuration config)
         {
             string gfwListUrl = GFWLIST_URL;
-            if (!string.IsNullOrWhiteSpace(config.gfwListUrl))
+            if (!config.gfwListUrl.IsNullOrWhiteSpace())
             {
                 Logging.Info("Found custom GFWListURL in config file");
                 gfwListUrl = config.gfwListUrl;

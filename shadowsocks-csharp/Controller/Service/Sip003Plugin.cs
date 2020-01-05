@@ -29,7 +29,7 @@ namespace Shadowsocks.Controller.Service
                 throw new ArgumentNullException(nameof(server));
             }
 
-            if (string.IsNullOrWhiteSpace(server.plugin))
+            if (server.plugin.IsNullOrWhiteSpace())
             {
                 return null;
             }
@@ -46,7 +46,7 @@ namespace Shadowsocks.Controller.Service
         private Sip003Plugin(string plugin, string pluginOpts, string pluginArgs, string serverAddress, int serverPort, bool showPluginOutput)
         {
             if (plugin == null) throw new ArgumentNullException(nameof(plugin));
-            if (string.IsNullOrWhiteSpace(serverAddress))
+            if (serverAddress.IsNullOrWhiteSpace())
             {
                 throw new ArgumentException("Value cannot be null or whitespace.", nameof(serverAddress));
             }
